@@ -32,3 +32,7 @@
   align-items: center;
   margin-top: 60%;
 }
+
+.card li {
+  list-style: none;
+}
