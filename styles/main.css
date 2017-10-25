@@ -26,11 +26,13 @@
 
 .timer {
   font-size: 4rem;
+  padding-top: 5px;
 }
 
 .timer-button {
   align-items: center;
-  margin-top: 60%;
+  /* margin-top: 60%; */
+  margin: 6px;
 }
 
 .card li {
