@@ -1,6 +1,22 @@
 const uuid = require('uuid/v4')
 
-const todos = []
+const todos = [
+  {
+    id: 1,
+    title: 'Finish stand-up website',
+    description: 'Website for daily task management',
+    subtasks: [
+      {
+        id: 2,
+        title: 'Build edit page',
+      },
+      {
+        id: 3,
+        title: 'Get API working',
+      },
+    ],
+  },
+]
 
 const getAllTodos = () => todos
 

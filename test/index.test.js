@@ -10,7 +10,7 @@ describe('Standup website API', () => {
     it('should create a new todo if given valid information', (done) => {
       const todo = {
         title: 'Finish unit 61',
-        description: 'Promises checkpoint',
+        description: 'Promises checkpoint'
       }
       chai.request(app)
         .post('/todos')
